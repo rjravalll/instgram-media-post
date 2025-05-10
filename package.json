@@ -1,0 +1,28 @@
+{
+  "name": "instagram-media-post",
+  "version": "1.0.1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "instagram",
+    "post",
+    "facebook",
+    "graph",
+    "api",
+    "auto",
+    "instgrame-auto-post",
+    "instagram-post-using-cod",
+    "instagram-post-using-nodejs",
+    "instagram-post-using-nodejs-cod",
+    "instagram post using cod",
+    "instagram post using nodejs cod"
+  ],
+  "author": "Jay Raval",
+  "license": "MIT",
+  "description": "A tool for auto-posting media to Instagram using the Facebook Graph API, ideal for automating Instagram uploads through code.",
+  "dependencies": {
+    "axios": "^1.9.0"
+  }
+}
