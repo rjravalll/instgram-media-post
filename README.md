@@ -69,3 +69,24 @@ Step 3: Generate a User Access Token
 #### Click "Generate Access Token"
 
 #### 💡 Make sure your Instagram account is a Business account and is linked to a Facebook Page
+
+# Uses:
+```bash
+
+const { postToInstagram } = require('instagram-auto-poster');
+
+(async () => {
+    try {
+        const result = await postToInstagram({
+            accessToken: 'YOUR_ACCESS_TOKEN_HERE',
+            imageUrl: 'https://example.com/image.jpg',
+            caption: 'Auto-posted from Node.js!',
+        });
+
+        console.log('Post Success:', result);
+    } catch (err) {
+        console.error('Post Failed:', err.message);
+    }
+})();
+
+```
