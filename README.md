@@ -90,3 +90,5 @@ const { postToInstagram } = require('instagram-auto-poster');
 })();
 
 ```
+
+# Using this NPM package, we can only post live photo URLs for now. We are currently working on supporting local image uploads through the admin site (code side), and it will be updated soon. Thank you!
